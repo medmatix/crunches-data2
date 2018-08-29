@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+	<meta name="keywords" content="Accounting System, Open Source, Unified Process, UML, software project">
+    <link rel="icon" href="http://getbootstrap.com/favicon.ico">
+
+    <title>Open Accounting Application</title>
+
+    <!-- Bootstrap core CSS -->
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="justified-nav.css" rel="stylesheet">
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="ie-emulation-modes-warning.js"></script>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+	
+	<style type="text/css">
+body {
+        background-color: #ffcc77;
+		text-shadow: 0 1px 0 rgba(0,0,0,.5);
+  		padding-top: 20px;
+
+}
+.jumbotron {
+			background: url('/img/accounting_shutterstock_106096793_washout3_hue.png') no-repeat center center;
+			background-size: 100% 100%;
+		}
+.text-center {
+  padding-top: 20px;
+}
+.col-xs-12 {
+  background-color: #ffcc77;
+}
+	</style>
+  </head>
+
+  <body>
+
+    <div class="container">
+
+      <div class="masthead">
+        <h3 class="text-muted">Open Accounting System</h3>
+        <ul class="nav nav-justified">
+          <li class="active"><a href="https://medmatix.github.io/crunches-data/index.html">Analytics Home</a></li>
+		  <li><a href="https://medmatix.github.io/crunches-data/copywriting.html">Copy Writing</a></li>
+          <li><a href="https://medmatix.github.io/crunches-data/projects.html">Projects</a></li>
+          <li><a href="https://medmatix.github.io/crunches-data/services.html">Services Offered</a></li>
+          <li><a href="#">Downloads</a></li>
+          <li><a href="https://medmatix.github.io/crunches-data/about.html">About</a></li>
+          <li><a href="https://medmatix.github.io/crunches-data/contact.html">Contact</a></li>
+        </ul>
+      </div>
+
+      <!-- Jumbotron -->
+      <div class="jumbotron" align="center" style="background-color:#ffcc77;">
+        <h1 style="color:green;">An Open Source Accounting System</h1>
+		<p class="lead" align="left">Generations of business experience have gone into the nature of double-entry accounting. Driving forces for this 
+		   form of accounting include: a) the isolation and prevention of entry errors, as well as b) documentation of the origin, path through the 
+		   company and ultimate disposition of all moneys. The former is simple Quality Control; this latter entity is the Audit Trail.</p><br>		
+		<p align="left">The earliest data systems were heavily represented in the accounting and financial sectors. As a result database programming often 
+		   necessitated systems designers and programmers get a firm grasp of basic accounting practices. Developing and studying an open source 
+		   accounting system and good documentation is an excellent way to get a handle on this domain for any programmer.</p><br>
+		<p><a class="btn btn-lg btn-success" href="#" role="button">See Background</a></p>
+      </div>
+	  <!-- End Jumbotron -->
+	  
+	  
+      <!--rows of columns -->
+      <div class="row">
+        <div class="col-lg-4">
+          <h2>Use Case</h2>
+		  <h3>Description</h3>
+          <p class="text-danger">Any accounting system consists of a series of business transactions, a journal (which records the transactions), 
+		     ledger (chart of accounts) (which group transactions by account) and a collection of standard accounting reports (which retrieve transactions, 
+			 group them by account, or summarize the activities by account or account type showing the relationships of the totality of the activities over 
+			 an accounting period) eg. "trial balances”.  Also other free-form, ad hoc or optional (special) reports may be included.<br>
+			 
+			 <p align="center"><a class="btn btn-primary" href="https://medmatix.github.io/crunches-data/project3_ucdesc.html" role="button">View full document »</a></p>
+		  </p> 
+		  <p>
+			 All system activities fall into a general set of function:
+		  <ul>
+			<li>Setup and Open System for activity beginning an accounting period</li>
+			<li>Enter an account transaction</li>
+			<li>Post (make permanent) an Account transaction</li>
+			<li>Display History by some criteria</li>
+			<li>Report activities or state of the system by some criteria</li>
+			<li>System Integrity checking (automatic trial balances)</li>
+			<li>Close activities at the end of an accounting period</li>
+			</ul>
+		  </p>
+		  <p align="center"><a class="btn btn-primary" href="https://medmatix.github.io/crunches-data/project3_ucs.html" role="button">View Diagram »</a></p>
+		  
+        </div>
+        <div class="col-lg-4">
+          <h2>Activities</h2><br><br>
+          <p>Activities to be presented as a flow of activity are in the early conceptual stage of development as the Use Case is being 
+		     explored. This will be documented here as it proceeds.</p><br>
+          <p align="center"><a class="btn btn-primary" href="https://medmatix.github.io/crunches-data/project3_acty.html" role="button">View Diagram »</a></p>
+       </div>
+        <div class="col-lg-4">
+		  <h2>Database Design</h2>
+		  <p></p>
+		  <p align="center"><a class="btn btn-primary" href="https://medmatix.github.io/crunches-data/underconstuction.html" role="button">View ERD »</a></p>
+          <h2>Classes</h2><br><br>
+          <p>This system lends itself very well to object-orientation as the components of the system, the account entities render well as objects.</p><br>
+          <p align="center"><a class="btn btn-primary" href="https://medmatix.github.io/crunches-data/underconstruction" role="button">View Class Diagram »</a></p>
+
+          
+        </div>
+      </div>
+	  <!-- End rows of columns
+	  
+      <!-- Site footer -->
+      <div class="footer">
+        <p>© Medmatix Consulting December 18, 2014</p>
+      </div>
+
+    </div> <!-- /container --> 
+
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="Justified%20Nav%20Template%20for%20Bootstrap_files/ie10-viewport-bug-workaround.js"></script>
+  
+
+</body></html>

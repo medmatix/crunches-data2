@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+	<meta name="keywords" content="Accounting System, Open Source, Unified Process, UML, software project">
+    <link rel="icon" href="http://getbootstrap.com/favicon.ico">
+
+    <title>Movie List Application</title>
+
+    <!-- Bootstrap core CSS -->
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="justified-nav.css" rel="stylesheet">
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="ie-emulation-modes-warning.js"></script>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+	
+	<style type="text/css">
+body {
+        background-color: #ffcc77;
+		text-shadow: 0 1px 0 rgba(0,0,0,.5);
+  		padding-top: 20px;
+
+}
+.jumbotron {
+			background: url('/img/family-movie-night-banner.jpg') no-repeat center center;
+			background-size: 100% 100%;
+		}
+.text-center {
+  padding-top: 20px;
+}
+.col-xs-12 {
+  background-color: #ffcc77;
+}
+	</style>
+  </head>
+
+  <body>
+
+    <div class="container">
+
+      <div class="masthead">
+        <h3 class="text-muted">Open Movie List Database</h3>
+        <ul class="nav nav-justified">
+          <li class="active"><a href="https://medmatix.github.io/crunches-data/index.html">Analytics Home</a></li>
+		  <li><a href="https://medmatix.github.io/crunches-data/copywriting.html">Copy Writing</a></li>
+          <li><a href="https://medmatix.github.io/crunches-data/projects.html">Projects</a></li>
+          <li><a href="https://medmatix.github.io/crunches-data/services.html">Services Offered</a></li>
+          <li><a href="#">Downloads</a></li>
+          <li><a href="https://medmatix.github.io/crunches-data/about.html">About</a></li>
+          <li><a href="https://medmatix.github.io/crunches-data/contact.html">Contact</a></li>
+        </ul>
+      </div>
+
+      <!-- Jumbotron -->
+      <div class="jumbotron" align="center" style="background-color:#ffcc77;">
+        <h1 style="color:blue;">An Open Movie List Database Application</h1>
+		<p class="lead" align="left" style="color:blue;"><b>My wife, Debby is a movie collector, DVDs and now Blueray. We have a pile of VHS tapes which she started collecting when
+ 		   I was practicing medicine in the middle of nowhere (one broadcast channel and no cable TV). It got really unwieldy finding something to watch about 15 
+		   years ago. Here is an answer to the Excel file she has been using up to now, with the potential for easy enhancements to include our own reviews and 
+		   comments as well as links to IMDb and Google etc. (Believe it or not,it began life many years earlier as a dBaseII application project.)</b></p><br>		
+		<p align="left" style="color:blue;"><b>The idea was for me to practice MySQL and the Java-MySQL interface and she'd get a full function movie list application. This is my 
+		   opportunity to break it down into the a typical development process to put it into my projects. I actually started on this incarnation while I was taking a course on 
+		   database management at UNCC to fill in and formalize my years of database programming. I have been puttering ever since. So, here is a growing record of my puttering, in all its understated glory.</b></p><br>
+		<p><a class="btn btn-lg btn-success" href="https://medmatix.github.io/crunches-data/underconstruction.html" role="button">See Code</a></p>
+      </div>
+	  <!-- End Jumbotron -->
+	  
+	  
+      <!--rows of columns -->
+      <div class="row">
+        <div class="col-lg-4">
+          <h2>Use Case</h2>
+		  <h3>Description</h3>
+          <p class="text-danger">A favorite databse development example for most texts, the needs and activities are very straight forward.<br>
+		  <ul>
+			<li>Adding new movies as they become part of the collection</li>
+			<li>Updating and Removing movie records as they are traded up or wear out (VHS especially become unplayable with time</li>
+			<li>Searching and retreiving movie title by different criteria.</li>
+			<li>Add comments and reviews for video database records</li> 
+			<li>Associated debit to a debit account (asset or expense accounts)</li>
+			<li>Posting credit to an asset account with balancing entries again</li>
+			<li>Posting debit to a liabilities or equity account with balancing entries again</li>
+			<li>Display and Printout hardcopy (browsing) lists and generated reports on database items</li>
+			</ul>
+		  </p>
+		  <h3>Triggers</h3>
+		  <p>Movie acquisition.</p>
+		  <p>Movie disposal</p>
+		  <p>Report and Query needs</p>
+		  <h3>Actors</h3>
+		  <p><ul>
+		    <li>family</li>
+			<li>friends</li>
+			<li>database manager</li>			
+		  </ul>
+		  </p>
+          <p align="center"><a class="btn btn-primary" href="https://medmatix.github.io/crunches-data/underconstruction.html" role="button">View a Diagram »</a></p>
+        </div>
+        <div class="col-lg-4">
+          <h2>Activities</h2><br><br>
+          <p>Activities to be presented as a flow of activity are the framework for the interface and database access development as driven by the Use Case. 
+		     explored. This will be documented here as it proceeds.</p><br>
+          <p align="center"><a class="btn btn-primary" href="https://medmatix.github.io/crunches-data/underconstruction.html" role="button">View a Diagram »</a></p>
+       </div>
+        <div class="col-lg-4">
+		  <h2>Database Design</h2>
+		  <p>A simple set of data requirements derive from the use case and abstract conceptualization of the data can be visualized with a pretty 
+		     uncomplicated E-R diagram.</p><br>
+          <p align="center"><a class="btn btn-primary" href="https://medmatix.github.io/crunches-data/project7_mysql.html" role="button">View E-R and SQL »</a></p><br>
+		  <h2>Classes</h2><br>
+          <p>There are two main catagories of class: those for database activities and those for user interface operation.</p><br>
+		  <p align="center"><a class="btn btn-primary" href="https://medmatix.github.io/crunches-data/underconstruction.html" role="button">View Diagram and API»</a></p><br>
+        </div>
+      </div>
+	  <!-- End rows of columns
+	  
+      <!-- Site footer -->
+      <div class="footer">
+        <p>© Medmatix Consulting December 17, 2014</p>
+      </div>
+
+    </div> <!-- /container --> 
+
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="Justified%20Nav%20Template%20for%20Bootstrap_files/ie10-viewport-bug-workaround.js"></script>
+  
+
+</body></html>

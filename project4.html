@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Project Page for Clinical Webcrawler, A tool to search web for terms from a standard medical lexicon">
+    <meta name="author" content="David A York">
+	<meta name="keywords" content="clinical webcrawler, medical terminology, digraph algorithm">
+    <link rel="icon" href="http://getbootstrap.com/favicon.ico">
+
+    <title>Clinical Webcrawler Application</title>
+
+    <!-- Bootstrap core CSS -->
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="justified-nav.css" rel="stylesheet">
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="ie-emulation-modes-warning.js"></script>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+	
+	<style type="text/css">
+body {
+        background-color: #ffcc77;
+		text-shadow: 0 1px 0 rgba(0,0,0,.5);
+  		padding-top: 20px;
+
+}
+.jumbotron {
+			background: url('./img/doctor_office_shutterstock_153138083_lowcontrast.png') no-repeat center center;
+			background-size: 100% 100%;
+		}
+.text-center {
+  padding-top: 20px;
+}
+.col-xs-12 {
+  background-color: #ffcc77;
+}
+	</style>
+  </head>
+
+  <body>
+
+    <div class="container">
+
+      <div class="masthead">
+        <h3 class="text-muted">A Clinical Data Webcrawler</h3>
+        <ul class="nav nav-justified">
+          <li><a href="https://medmatix.github.io/crunches-data/index.html">Analytics Home</a></li>
+	  <li><a href="https://medmatix.github.io/crunches-data/copywriting.html">Copy Writing</a></li>
+          <li><a href="https://medmatix.github.io/crunches-data/projects.html">Projects</a></li>
+          <li><a href="https://medmatix.github.io/crunches-data/services.html">Services Offered</a></li>
+          <li><a href="#">Downloads</a></li>
+          <li><a href="https://medmatix.github.io/crunches-data/about.html">About</a></li>
+          <li><a href="https://medmatix.github.io/crunches-data/contact.html">Contact</a></li>
+        </ul>
+      </div>
+
+      <!-- Jumbotron -->
+      <div class="jumbotron" align="center" style="background-color:#ffcc77;">
+        <h1 style="color:green;">A Clinical Case Webcrawler</h1>
+		<p class="lead" align="left">Webcrawlers are the heart of the search engines of the web. However they are pretty general implementations in order to 
+		   serve many different but overlaping kinds of searches. A web wide search engine optimized for clinical medical information could find a central 
+		   role in medical informatics. In my <a href="/blog.html">Blog</a> I have discussed the idea of an automatically annotated chart that I first heard 
+		   articulated by Dr Larry Weed back in 1996.</p><br>		
+		<p align="left">Consider a search engine optimized for clinical medical data. Actors would include Programs needing document annotation with web sources, 
+		   direct user queries, and administrative entities for configuration, optimization and medical term cataloguing. Now explore the actor system interactions 
+		   and the actions which result. This approach, part of the unified process is outlined here with links to detail pages as we drill down on the development. 
+		   This is in its simplest for an implementation or an applied directed graph so a digression exploring this data structure is here as well.</p><br>
+		<p><a class="btn btn-lg btn-success" href="https://medmatix.github.io/crunches-data/blog.html#knowcouple" role="button">See Background</a></p>
+      </div>
+	  <!-- End Jumbotron -->
+	  
+	  
+      <!--rows of columns -->
+      <div class="row">
+        <div class="col-lg-4">
+          <h2>Use Case</h2>
+		  <h3>Description</h3>
+          <p class="text-danger">Consider a clinical search engine based upon establish medical nomenclatures. Optimize this system for domain specific 
+		     criteria such as diagnostic probability or clinical relevance. The process could involve,<br>
+		  <ul>
+			<li>Context driven web search for mapped clinical terms</li>
+			<li>Construction of a priority or probability based ordering of results</li>
+			<li>Format result list for query context</li>
+			
+			</ul>
+		  </p>
+		  <h3>Triggers</h3>
+		  <p>User (human) query.</p>
+		  <p>Host program call for query by (some) context.</p>
+		  <p>System update or configuration request
+		  <h3>Actors</h3>
+		  <p><ul>
+		    <li>human user (see by type)</li>
+			<li>Host program (via API)</li>
+			<li>system administrator</li>			
+		  </ul>
+		  </p>
+          <p align="center"><a class="btn btn-primary" href="https://medmatix.github.io/crunches-data/underconstruction.html" role="button">View a Diagram »</a></p>
+        </div>
+        <div class="col-lg-4">
+          <h2>Activities</h2><br><br>
+          <p>Activities to be presented as a flow of activity are in the early conceptual stage of development as the Use Case is being 
+		     explored. This will be documented here as it proceeds.</p><br>
+          <p align="center"><a class="btn btn-primary" href="https://medmatix.github.io/crunches-data/underconstruction.html" role="button">View a Diagram »</a></p>
+       </div>
+        <div class="col-lg-4">
+          <h2>Classes</h2><br><br>
+          <p>As development evolves an API is defined to access data structures and algorithms need for search and optimization followed by context 
+		  driven result output.</p><br>
+          <p align="center"><a class="btn btn-primary" href="https://medmatix.github.io/crunches-data/underconstruction.html" role="button">View a Diagram »</a></p>
+        </div>
+      </div>
+	  <!-- End rows of columns
+	  
+      <!-- Site footer -->
+      <div class="footer">
+        <p>© Medmatix Consulting December 4, 2014</p>
+      </div>
+
+    </div> <!-- /container --> 
+
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="Justified%20Nav%20Template%20for%20Bootstrap_files/ie10-viewport-bug-workaround.js"></script>
+  
+
+</body></html>
