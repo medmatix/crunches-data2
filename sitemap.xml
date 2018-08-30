@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"> 
+<!--Main Pages, root and first level children -->
+  <url>
+    <loc>http://www.crunches-data.appspot.com/index.html</loc>
+	<lastmod>2014-12-23</lastmod>
+	<changefreq>monthly</changefreq>
+	<priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://www.crunches-data.appspot.com/DavePage1.html</loc>
+	<lastmod>2014-12-25</lastmod>
+	<changefreq>monthly</changefreq>
+	<priority>0.7</priority>
+  </url>
+  <url>
+    <loc>http://www.crunches-data.appspot.com/DavePage2.html</loc> 
+	<lastmod>2014-11-03</lastmod>
+	<changefreq>monthly</changefreq>
+	<priority>0.6</priority>
+  </url>
+  <url>
+    <loc>http://www.crunches-data.appspot.com/blog.html</loc> 
+	<lastmod>2014-12-25</lastmod>
+	<changefreq>monthly</changefreq>
+	<priority>0.7</priority>
+  </url>
+  <url>
+    <loc>http://www.crunches-data.appspot.com/projects.html</loc> 
+	<lastmod>2014-12-23</lastmod>
+	<changefreq>weekly</changefreq>
+	<priority>0.8</priority>
+  </url>
+  <url>
+    <loc>http://www.crunches-data.appspot.com/copywriting.html</loc>
+	<lastmod>2014-12-06</lastmod>
+	<changefreq>weeklyly</changefreq>
+	<priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.crunches-data.appspot.com/services.html</loc> 
+	<lastmod>2014-12-23</lastmod>
+	<changefreq>monthly</changefreq>
+	<priority>0.6</priority>
+  </url>
+  <url>
+    <loc>http://www.crunches-data.appspot.com/contact.html</loc> 
+	<lastmod>2014-12-23</lastmod>
+	<changefreq>monthly</changefreq>
+	<priority>0.7</priority>
+  </url>
+</urlset>
