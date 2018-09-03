@@ -1,6 +1,6 @@
 [Crunches-data Personal Website](http://crunches-data.appspot.com) Development
   
-===================![icon](https://github.com/medmatix/crunches-data2/blob/master/img/DNA-tree-crop2-alpha.png)
+![icon](https://github.com/medmatix/crunches-data2/blob/master/img/DNA-tree-crop2-alpha.png)
   
 ==============================
 ## Crunches-data Site Development Repository
