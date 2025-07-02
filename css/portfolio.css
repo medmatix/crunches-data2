@@ -35,30 +35,30 @@ h6, .h6 {
  * Masthead for nav
  */
 
-.blog-masthead {
+.portfolio-masthead {
   background-color: #428bca;
   box-shadow: inset 0 -2px 5px rgba(0,0,0,.1);
 }
 
 /* Nav links */
-.blog-nav-item {
+.portfolio-nav-item {
   position: relative;
   display: inline-block;
   padding: 10px;
   font-weight: 500;
   color: #cdddeb;
 }
-.blog-nav-item:hover,
-.blog-nav-item:focus {
+.portfolio-nav-item:hover,
+.portfolio-nav-item:focus {
   color: #fff;
   text-decoration: none;
 }
 
 /* Active state gets a caret at the bottom */
-.blog-nav .active {
+.portfolio-nav .active {
   color: #fff;
 }
-.blog-nav .active:after {
+.portfolio-nav .active:after {
   position: absolute;
   bottom: 0;
   left: 50%;
@@ -74,20 +74,20 @@ h6, .h6 {
 
 
 /*
- * Blog name and description
+ * portfolio name and description
  */
 
-.blog-header {
+.portfolio-header {
   padding-top: 20px;
   padding-bottom: 20px;
 }
-.blog-title {
+.portfolio-title {
   margin-top: 30px;
   margin-bottom: 0;
   font-size: 60px;
   font-weight: normal;
 }
-.blog-description {
+.portfolio-description {
   font-size: 20px;
   color: #999;
 }
@@ -97,7 +97,7 @@ h6, .h6 {
  * Main column and sidebar layout
  */
 
-.blog-main {
+.portfolio-main {
   font-size: 18px;
   line-height: 1.5;
 }
@@ -134,17 +134,17 @@ h6, .h6 {
 
 
 /*
- * Blog posts
+ * portfolio posts
  */
 
-.blog-post {
+.portfolio-post {
   margin-bottom: 60px;
 }
-.blog-post-title {
+.portfolio-post-title {
   margin-bottom: 5px;
   font-size: 40px;
 }
-.blog-post-meta {
+.portfolio-post-meta {
   margin-bottom: 20px;
   color: #999;
 }
@@ -154,7 +154,7 @@ h6, .h6 {
  * Footer
  */
 
-.blog-footer {
+.portfolio-footer {
   padding: 40px 0;
   color: #999;
   text-align: center;
