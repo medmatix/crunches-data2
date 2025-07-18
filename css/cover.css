@@ -42,7 +42,7 @@ body {
 /* Extra markup and styles for table-esque vertical and horizontal centering */
 .site-wrapper {
   display: table;
-  width: 100%;
+  width: 110%;
   height: 100%; /* For at least Firefox */
   min-height: 100%;
 }
@@ -57,7 +57,7 @@ body {
 
 /* Padding for spacing */
 .inner {
-  padding: 25px;
+  padding: 20px;
 }
 
 
@@ -73,12 +73,12 @@ body {
   display: inline-block;
 }
 .masthead-nav > li + li {
-  margin-left: 20px;
+  margin-left: 0px;
 }
 .masthead-nav > li > a {
   padding-right: 0;
   padding-left: 0;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: bold;
   color: #fff; /* IE8 proofing */
   color: rgba(255,255,255,.75);
