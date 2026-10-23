@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;crunches-data2/ArchiPortfolio/Airspeed_A-10_Oxford_glb.html&apos; to &apos;EMD40-2Diesel_glb.html&apos;" description="Rename resource &apos;Airspeed_A-10_Oxford_glb.html&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="ArchiPortfolio/Airspeed_A-10_Oxford_glb.html" name="EMD40-2Diesel_glb.html" stamp="1792781574918" updateReferences="true"/>
+</session>
